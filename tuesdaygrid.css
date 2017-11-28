@@ -1,0 +1,40 @@
+body {
+    margin:0px;
+}
+
+.wrapper > div{
+    background: lightgray;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.wrapper > div:nth-child(odd){
+    background: gray;
+
+}
+.wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+.wrappertwo {
+    display:grid;
+    grid-template-columns:4fr 6fr;
+    grid-gap:25px;
+}
+
+#six {
+    background:darkblue;
+    height:250px;
+    align-self: end;
+  
+}
+
+#seven {
+    background:rgb(130, 130, 184);
+    height: 500px;
+
+}
